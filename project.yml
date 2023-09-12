@@ -12,6 +12,9 @@ settings:
     version-number: '9.8'
   - name: 适用于 VMware vSphere 的 ONTAP 工具
     url: "/ontap-tools-vmware-vsphere"
+    version-number: '9.13'
+  - name: 适用于 VMware vSphere 的 ONTAP 工具
+    url: "/ontap-tools-vmware-vsphere-912"
     version-number: '9.12'
   - name: 适用于 VMware vSphere 的 ONTAP 工具
     url: "/ontap-tools-vmware-vsphere-911"
