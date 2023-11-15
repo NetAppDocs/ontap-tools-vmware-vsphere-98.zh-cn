@@ -578,7 +578,6 @@ rm -rf com.netapp.vsch5-x.x.x.xxxx
   <block id="3d7de81ead511dc0d2bd3eeb864ff231" category="paragraph">如果希望 VSC 在调整 VMFS 数据存储库的大小时调整包含的卷的大小，则在最初配置 VMFS 数据存储库时，不应使用存储属性部分下的 * 使用现有卷 * 选项，而是让它自动为每个数据存储库创建一个新卷。</block>
   <block id="b6b2c55f92e8e04471c740483e69a795" category="paragraph">可以增加或减小 NFS 数据存储库的大小，但对于 VMFS 数据存储库，只能增加其大小。使用自动增长和缩减选项的 FlexGroup 数据存储库也支持调整数据存储库大小。属于传统数据存储库的 FlexGroup 以及属于 VVOL 数据存储库的 FlexVol 卷不能缩减到低于现有大小，但最多可增长 120% 。在这些 FlexGroup 和 FlexVol 卷上启用默认快照。</block>
   <block id="0e6fc56cbe91d72cb03e33a904ae9ab3" category="list-text">在导航窗格中，选择包含数据存储库的数据中心。</block>
-  <block id="a15d1bf5dee929fddbf2e03ae0f830e9" category="list-text">右键单击数据存储库，然后选择 * NetApp ONTAP tools* &gt; * 分配 QoS" 。</block>
   <block id="425e99780c82b74f333dd7da3068f492" category="list-text">在调整大小对话框中，指定数据存储库的新大小，然后单击 * 确定 * 。</block>
   <block id="29b33d6a4971ded7e90ffb22fa8e685d" category="paragraph">您可以运行存储系统菜单中的 * 重新发现全部 * 选项来手动更新存储系统和信息板下的存储列表，或者等待下次计划的刷新。</block>
   <block id="96175e97c8c13423e6a60249fa770130" category="summary">您可以使用 ONTAP 工具的传统信息板监控传统数据存储库和虚拟机。通过信息板数据，您可以分析数据存储库使用情况并采取更正操作，以防止虚拟机受到与空间相关的限制。</block>
@@ -1892,7 +1891,6 @@ ONTAP 9.8及更高版本上基于NFS的虚拟卷数据存储库提供了性能�
   <block id="4c3c39a603eb21106d2df2836d4b456c" category="sidebar">NetApp 知识库— ONTAP 工具</block>
   <block id="bbf1057ad175e1e1664e224351019ac9" category="sidebar">NetApp 导入实用程序—视频</block>
   <block id="72393f9ef0b6b69526a30ac7ce5276bc" category="sidebar">NetApp 社区— ONTAP 工具</block>
-  <block id="ed9018b2e8611a3d2c03bb6a205b9715" category="sidebar">适用于 VMware vSphere 的 ONTAP 工具</block>
   <block id="4226794a7bb33ab0a2309e30c07c9031" category="sidebar">管理 ONTAP 工具</block>
   <block id="1b8a04f09ff55290753a17988fd53c2a" category="sidebar">管理数据存储库</block>
   <block id="427d9ce60f4b39aa82a25138b4aa489f" category="sidebar">管理虚拟机</block>
@@ -1931,4 +1929,5 @@ ONTAP 9.8及更高版本上基于NFS的虚拟卷数据存储库提供了性能�
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="bdc5a4ba1115f3f724e1f81e7f41eeef" category="list-text">右键单击该数据存储库并选择* tools*&gt;*调整非NetApp ONTAP数据存储库大小*。</block>
 </blocks>
